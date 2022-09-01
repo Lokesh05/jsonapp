@@ -1,0 +1,28 @@
+-- mydb.order definition
+
+CREATE TABLE `order` (
+  `order_number` varchar(100) NOT NULL,
+  `order_date` varchar(100) NOT NULL,
+  PRIMARY KEY (`order_number`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `order_lines` (
+  `order_number` varchar(100) NOT NULL,
+  `line_number` varchar(100) NOT NULL,
+  `product_id` varchar(40) NOT NULL,
+  `quantity` varchar(40) NOT NULL,
+  `product_description` varchar(100) NOT NULL,
+  PRIMARY KEY (`line_number`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `customer` (
+  `order_number` varchar(100) NOT NULL,
+  `customer_id` varchar(100) NOT NULL,
+  `customer_name` varchar(100) NOT NULL,
+  `address1` varchar(100) NOT NULL,
+  `address2` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `state` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL,
+  PRIMARY KEY (`customer_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

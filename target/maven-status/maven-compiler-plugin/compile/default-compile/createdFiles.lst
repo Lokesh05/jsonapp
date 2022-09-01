@@ -1,0 +1,9 @@
+com/jsonapp/model/OrderInfoResponse$Customer.class
+com/jsonapp/JsonApplication.class
+com/jsonapp/model/OrderInfoResponse$OrderInfoResponseBuilder.class
+com/jsonapp/model/OrderInfoResponse$Customer$CustomerBuilder.class
+com/jsonapp/model/OrderInfoResponse.class
+com/jsonapp/model/OrderInfoResponse$OrderLines$OrderLinesBuilder.class
+com/jsonapp/model/OrderInfoResponse$OrderLines.class
+com/jsonapp/model/OrderInfoRequest.class
+com/jsonapp/model/OrderInfoRequest$OrderInfoRequestBuilder.class
